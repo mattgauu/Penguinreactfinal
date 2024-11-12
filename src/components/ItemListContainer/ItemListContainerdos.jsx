@@ -6,7 +6,6 @@ import { collection, getDocs, query, where } from "firebase/firestore"
 import db from "../../db/db.js"
 
 
-
 const ItemListContainer = ({ saludo }) => {
   const [products, setProducts] = useState([])
   const { idCategory } = useParams()
@@ -15,7 +14,7 @@ const ItemListContainer = ({ saludo }) => {
     const productsRef = collection( db, "products" )
     getDocs(productsRef)
       .then((dataDb)=> {
-        //formateamos correctamente nuestros productos
+        
         const productsDb = dataDb.docs.map((productDb)=> {
           return { id: productDb.id , ...productDb.data() }
         })
@@ -53,6 +52,4 @@ const ItemListContainer = ({ saludo }) => {
     </div>
   )
 }
-
-
 export default ItemListContainer
