@@ -7,7 +7,7 @@ import "./navbar.css"
 const NavBar = () => {
 
   return (
-    <nav class="navbar sticky-top bg-body-tertiary" className="navbar">
+    <nav className="navbar navbar sticky-top bg-body-tertiary" >
 
       <ul className="categories">
         <li className="category">

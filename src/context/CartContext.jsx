@@ -56,4 +56,3 @@ const CartProvider = ({ children }) => {
 }
 
 export { CartProvider, CartContext }
-
