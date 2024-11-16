@@ -12,14 +12,16 @@
 .controls-count button{
   width: 40px;
   height: 40px;
-  background-color: rgb(42, 42, 42);
-  border: 1px solid white;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid  rgb(0, 149, 241);
   border-radius: 5px;
-  color: white;
+  color:  rgb(0, 149, 241);
 }
 .controls-count button:hover{
-  border: 1px solid #2ECC71;
+  border: 1px solid  rgb(0, 149, 241);
   cursor: pointer;
+  background-color:  rgb(0, 149, 241);
+  color:  rgb(255, 255, 255);
 }
 .controls-count p{
   font-weight: bold;
@@ -27,13 +29,14 @@
 
 .button-add-count{
   padding: 10px 0;
-  background-color: rgb(42, 42, 42);
-  border: 1px solid white;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid  rgb(0, 149, 241);
   border-radius: 5px;
-  color: white;
+  color:  rgb(0, 149, 241);
 }
 .button-add-count:hover{
-  border: 1px solid #2ECC71;
-  color: #2ECC71;
+  border: 1px solid  rgb(0, 149, 241);
+  color:  rgb(255, 255, 255);
   cursor: pointer;
+  background-color:  rgb(0, 149, 241);
 }

@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 5px solid rgb(42, 42, 42);
+  
   border-radius: 5px;
   padding: 5px;
   margin: 10px 0;
@@ -25,17 +25,17 @@
   align-items: center;
   width: 40px;
   height: 40px;
-  background-color: rgb(45, 6, 6);
-  border: 1px solid rgb(235, 144, 144);
+  
+  border: 1px solid rgb(0, 149, 241);
   border-radius: 5px;
-  color: rgb(203, 124, 124);
+  color: rgb(0, 149, 241);
   font-size: 20px;
 }
 .delete-item-cart:hover{
   cursor: pointer;
-  background-color: rgb(0, 0, 0);
-  border: 1px solid rgb(190, 69, 69);
-  color: rgb(203, 124, 124);
+  background-color: rgb(0, 149, 241);
+  border: 1px solid rgb(0, 149, 241);
+  color: rgb(255, 255, 255);
 }
 .info-cart{
   display: flex;
@@ -46,25 +46,25 @@
   padding: 10px 0;
 }
 .button-delete-cart{
-  width: 200px;
+  width: 300px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(45, 6, 6);
-  border: 1px solid rgb(235, 144, 144);
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(0, 149, 241);
   border-radius: 5px;
-  color: rgb(203, 124, 124);
+  color: rgb(0, 149, 241);
   font-size: 20px;
 }
 .button-delete-cart:hover{
   cursor: pointer;
-  background-color: rgb(0, 0, 0);
-  border: 1px solid rgb(190, 69, 69);
-  color: rgb(203, 124, 124);
+  background-color: rgb(0, 149, 241);
+  border: 1px solid rgb(0, 149, 241);
+  color: rgb(255, 255, 255);
 }
 
-/*Empty cart styles*/
+
 .empty-cart{
   width: 100%;
   height: 85vh;
@@ -81,8 +81,28 @@
   align-items: center;
   width: 200px;
   height: 40px;
-  background-color: rgb(42, 42, 42);
-  border: 2px solid #1b8246;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 149, 241);
   border-radius: 5px;
-  color: #2ECC71;
+  color: rgb(0, 149, 241);
+}
+
+.terminar-compra{
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(0, 149, 241);
+  border-radius: 5px;
+  color: rgb(0, 149, 241);
+  font-size: 20px;
+}
+.terminar-compra:hover{
+  cursor: pointer;
+  background-color: rgb(0, 149, 241);
+  border: 1px solid rgb(0, 149, 241);
+  color: rgb(255, 255, 255);
 }

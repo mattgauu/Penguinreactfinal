@@ -15,7 +15,7 @@ const ItemListContainer = ({ saludo }) => {
     const productsRef = collection( db, "products" )
     getDocs(productsRef)
       .then((dataDb)=> {
-        //formateamos correctamente nuestros productos
+        
         const productsDb = dataDb.docs.map((productDb)=> {
           return { id: productDb.id , ...productDb.data() }
         })

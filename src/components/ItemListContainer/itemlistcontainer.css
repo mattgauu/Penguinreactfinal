@@ -34,6 +34,8 @@
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   border: 2px solid rgb(0, 149, 241);
+  display: flex;
+  
 }
 .item .button-detail:hover{
   border: 2px solid rgb(0, 149, 241);
