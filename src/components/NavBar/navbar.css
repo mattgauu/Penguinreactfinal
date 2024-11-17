@@ -2,14 +2,14 @@
   width: 100%;
   height: 50px;
   display: flex;
-  justify-content: space-between; /* Espacio entre las secciones */
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(255, 255, 255);
   color:  rgb(255, 255, 255);
 }
 
 .navbar .brand {
-  flex: 1; /* Ocupa menos espacio */
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .navbar .categories {
-  flex: 2; /* Ocupa más espacio que .brand */
+  flex: 2; 
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -27,7 +27,7 @@
 }
 
 .navbar .cartwidget {
-  flex: 1; /* Ocupa el mismo espacio que .brand */
+  flex: 1; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,5 +60,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Añadir contenido aquí si es necesario, como un logo */
+  
 }
