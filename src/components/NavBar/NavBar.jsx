@@ -7,15 +7,6 @@ import "./navbar.css"
 const NavBar = () => {
 
   return (
-    import CartWidget from "./CartWidget"
-import { BsBox } from "react-icons/bs";
-import { Link } from "react-router-dom"
-
-import "./navbar.css"
-
-const NavBar = () => {
-
-  return (
     <nav className="navbar navbar sticky-top bg-body-tertiary" expand="lg">
        
       <ul className="categories">
@@ -36,8 +27,6 @@ const NavBar = () => {
       <CartWidget />
       
     </nav>
-  )
-}
   )
 }
 export default NavBar
